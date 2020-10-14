@@ -1,3 +1,3 @@
 import * as views from "./views";
 
-export default st => `${views[st.page](st)}`;
+export default st => `${views[st.views](st)}`;
